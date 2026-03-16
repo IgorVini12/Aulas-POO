@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 public class Fatura {
     public static final Fatura NovaFatura = null;
     float valor;
@@ -40,21 +39,3 @@ public class Fatura {
     }
 
 }
-=======
-public class Fatura {
-    float valor;
-    int pontuação;
-    String tipoConta;
-
-    Fatura(){
-        valor = 0;
-        pontuação = 0;
-        tipoConta  = "Normal";
-    }
-    Fatura(float valor, int pontuação, String tipoConta){
-        this.valor = valor;
-        this.pontuação = pontuação;
-        this.tipoConta  = tipoConta;
-    } 
-}
->>>>>>> f27593aa2ff83ac86022e348fdff6674e82e0159
