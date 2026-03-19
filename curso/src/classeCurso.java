@@ -1,13 +1,16 @@
 public class classeCurso {
- public static final String QuantidadeDeAlunos = null;
+ public static Object QuantidadeDeAlunos = null;
 
 public static void main(String[] args) {
     String nome;
     int QuantidadeDeAlunos;
     String turma;
     float mensalidade;
-    
-    classeCurso() {
+}
+
+  public  float mensalidade;
+  public String nome;
+  public String turma;    classeCurso(String turma) {
         nome = "Curso de java";
         QuantidadeDeAlunos = 50;
         turma = "Manhã";
