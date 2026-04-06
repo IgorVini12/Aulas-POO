@@ -4,8 +4,8 @@ import javax.swing.JTable;
 import javax.swing.JTextField;
 
 public class App {
-    private Vendedor[] listaVendedors = new Vendedor[10];
-    private int totalCadastrado = 0;
+    public Vendedor[] listaVendedors = new Vendedor[10];
+    public int totalCadastrado = 0;
 
     // Construtor: contém a lógica principal do menu
     public App() {
